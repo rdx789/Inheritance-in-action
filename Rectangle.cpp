@@ -31,12 +31,12 @@ double myShapes::Rectangle::getWidth() const
 
 double myShapes::Rectangle::getPerimeter() const
 {
-    return (2 * _length) + (2 *  _width);
+        return (2 * _length) + (2 *  _width);
 }
 
 double myShapes::Rectangle::getArea() const
 {
-    return _length * _width;
+        return _length * _width;
 }
 /*
 double myShapes::Rectangle::getArea() const

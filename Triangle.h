@@ -10,7 +10,7 @@ class Triangle : public Polygon
 {
 public:
 	Triangle(const Point& a, const Point& b, const Point& c, const std::string& type, const std::string& name);
-    ~Triangle();
+        ~Triangle();
 
 	double getArea() const;
 	void draw(const Canvas& canvas);

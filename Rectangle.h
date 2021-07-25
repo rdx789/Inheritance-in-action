@@ -23,7 +23,7 @@ namespace myShapes
 		double getWidth() const;
 
 	private:
-	    double _length;
+	        double _length;
 		double _width;
 	};
 }

@@ -14,8 +14,8 @@ public:
 	Circle(const Point& center, double radius, const std::string& type, const std::string& name);
 	~Circle();
 
-    const Point& getCenter() const;
-    double getRadius() const;
+        const Point& getCenter() const;
+        double getRadius() const;
 	double getArea() const;
 	double getPerimeter() const;
 	void move(const Point& other);
