@@ -34,7 +34,7 @@ int main()
 			std::cout << e.what() << std::endl;
 			//system("PAUSE");
 			getchar();
-            std::cin.get();
+                        std::cin.get();
 		}
 	}
 	return 0;
